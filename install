@@ -1,0 +1,3 @@
+echo "Installing gulp globally"
+npm install gulp -g -dd
+

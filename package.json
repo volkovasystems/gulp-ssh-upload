@@ -1,0 +1,30 @@
+{
+  "name": "gulp-ssh-upload",
+  "version": "1.0.0",
+  "description": "Gulp engine for executing check, configure, teleport, reconstruct, run, and update pattern for facilitating AWS EC2 deployment.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "preinstall": "sh ./install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volkovasystems/gulp-ssh-upload.git"
+  },
+  "keywords": [
+    "gulp",
+    "ssh",
+    "upload",
+    "aws",
+    "ec2"
+  ],
+  "author": "Richeve S. Bebedor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/gulp-ssh-upload/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/gulp-ssh-upload",
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  }
+}
