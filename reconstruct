@@ -1,3 +1,3 @@
 echo "Running default gulp task.";
-cd @git-repository-directory;
+cd @remote-directory;
 gulp;

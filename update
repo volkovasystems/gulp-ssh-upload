@@ -2,7 +2,7 @@ echo "Updating npm global modules.";
 npm update -g;
 
 echo "Updating npm local modules.";
-cd @git-repository-directory;
+cd @remote-directory;
 npm install;
 npm update;
 

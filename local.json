@@ -1,18 +1,21 @@
 {
-	"gitHttpsRepositoryUrl": "",
-	"gitRepositoryDirectory": "",
-	"gitRepositoryMainBranch": "",
+	"gitHttpsRepositoryUrl": "@git-https-repository-url",
+	"gitRepositoryDirectory": "@git-repository-directory",
+	"gitRepositoryMainBranch": "@git-repository-main-branch",
 
-	"nodejsSourceUrl": "",
-	"nodejsSourceFile": "",
-	"nodejsSourceDirectory": "",
+	"nodejsSourceUrl": "@nodejs-source-url",
+	"nodejsSourceFile": "@nodejs-source-file",
+	"nodejsSourceDirectory": "@nodejs-source-directory",
 
-	"mongodbSourceUrl": "",
-	"mongodbSourceFile": "",
-	"mongodbSourceDirectory": "",
+	"mongodbSourceUrl": "@mongodb-source-url",
+	"mongodbSourceFile": "@mongodb-source-file",
+	"mongodbSourceDirectory": "@mongodb-source-directory",
 
-	"remoteHost": "",
-	"privateKeyFile": "",
-	"privateKeyPassphrase": "",
-	"remoteConnectionTimeout": 50000
+	"remoteHost": "@remote-host",
+	"privateKeyFile": "@private-key-file",
+	"privateKeyPassphrase": "@private-key-passphrase",
+	"remoteConnectionTimeout": "@remote-connection-timeout",
+	"remoteDirectory": "@remote-directory",
+
+	"localDirectory": "@local-directory"
 }
