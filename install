@@ -1,3 +1,5 @@
-echo "Installing gulp globally"
-npm install gulp -g -dd
+echo "Installing gulp globally.";
+npm install gulp -g;
 
+echo "Installing bower globally.";
+npm install bower -g;

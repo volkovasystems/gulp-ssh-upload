@@ -1,0 +1,10 @@
+echo "Updating npm global modules.";
+npm update -g;
+
+echo "Updating npm local modules.";
+cd @git-repository-directory;
+npm install;
+npm update;
+
+echo "Updating project repository";
+git pull;

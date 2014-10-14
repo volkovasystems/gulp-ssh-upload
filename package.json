@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/volkovasystems/gulp-ssh-upload",
   "devDependencies": {
-    "gulp": "^3.8.8"
+    "async": "^0.9.0",
+    "gulp": "^3.8.8",
+    "gulp-ssh": "^0.2.0",
+    "yargs": "^1.3.2"
   }
 }

@@ -1,0 +1,5 @@
+echo "Cloning project repository.";
+git clone @git-https-repository-url;
+cd @git-repository-directory;
+git checkout @git-repository-main-branch;
+git pull;

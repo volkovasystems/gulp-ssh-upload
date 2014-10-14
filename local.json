@@ -1,0 +1,18 @@
+{
+	"gitHttpsRepositoryUrl": "",
+	"gitRepositoryDirectory": "",
+	"gitRepositoryMainBranch": "",
+
+	"nodejsSourceUrl": "",
+	"nodejsSourceFile": "",
+	"nodejsSourceDirectory": "",
+
+	"mongodbSourceUrl": "",
+	"mongodbSourceFile": "",
+	"mongodbSourceDirectory": "",
+
+	"remoteHost": "",
+	"privateKeyFile": "",
+	"privateKeyPassphrase": "",
+	"remoteConnectionTimeout": 50000
+}

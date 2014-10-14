@@ -1,0 +1,3 @@
+echo "Running the project.";
+cd @git-repository-directory;
+gulp run;

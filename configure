@@ -1,0 +1,28 @@
+echo "Updating server.";
+sudo apt-get update -y;
+sudo apt-get upgrade -y;
+sudo apt-get dist-upgrade -y;
+
+echo "Installing git.";
+sudo apt-get install -y git; 
+
+echo "Installing build-essential.";
+sudo apt-get install -y build-essential;
+
+echo "Installing nodejs.";
+curl -O @nodejs-source-url;
+tar -zxvf ~/@nodejs-source-file;
+mkdir -p ~/nodejs;
+mv -n ~/@nodejs-source-directory/* ~/nodejs;
+
+echo "Installing mongodb.";
+curl -O @mongodb-source-url;
+tar -zxvf ~/@mongodb-source-file;
+mkdir -p ~/mongodb;
+mv -n ~/@mongodb-source-directory/* ~/mongodb;
+
+echo "Setting PATH variable data";
+echo "export PATH=~/mongodb/bin:~/nodejs/bin:$PATH" | sudo tee -a ~/.bashrc;
+
+echo "Applying change.";
+source ~/.bashrc;
